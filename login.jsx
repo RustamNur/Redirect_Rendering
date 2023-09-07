@@ -39,7 +39,6 @@ const Login = (props) => {
             <i className="fab fa-linkedin-in"></i>
           </div>
           <div className="create">
-            <p>Need an account?</p>
             <p className="change" onClick={() => props.onDirect(false)}>
               SIGN UP
             </p>
